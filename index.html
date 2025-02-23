@@ -8,31 +8,38 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- Navigation Bar -->
     <nav class="navbar">
         <a href="#" class="logo">Portfolio.</a>
         <ul>
-            <li><a href="#">Home</a></li>
+            <li><a href="#home">Home</a></li>
             <li><a href="#experience">Experience</a></li>
             <li><a href="#skills">Skills</a></li>
             <li><a href="#achievements">Achievements</a></li>
             <li><a href="#contact">Contacts</a></li>
         </ul>
     </nav>
-    <section class="home">
+
+    <!-- Home Section -->
+    <section id="home" class="home">
         <div class="home-info">
             <h1>Fahim Foysal</h1>
-            <h2>Graphics Designer | CSE Student at North South University | Future AI & ML Enthusiast</h2>
-            <p>Passionate and dedicated CSE student at North South University. Eager to make an impact in the world of technology. With a solid Foundation in programming, cybersecurity ,AI and critical thinking. 
-                Beyond my technical acumen, I am an enthusiastic learner who stays up to date with the latest trends in the field. I believe in the power of continuous learning.
-            </p>
-          <div class="btn-sci">
-            <div class="sci">
-                <a href="#"><i class='bx bxl-github'></i></a>
-                <a href="#"><i class='bx bxl-facebook-circle' ></i></a>
-                <a href="#"><i class='bx bxl-linkedin' ></i></a>
-                <a href="#"><i class='bx bxl-instagram' ></i></a>
+            <h2>
+                <span class="hover-part">Graphics Designer</span> | 
+                <span class="hover-part">CSE Student at North South University</span> | 
+                <span class="hover-part">Future AI & ML Enthusiast</span>
+            </h2>
+            <div class="typewriter">
+                <p>Passionate and dedicated CSE student at North South University. Eager to make an impact in the world of technology. With a solid Foundation in programming, cybersecurity ,AI and critical thinking. Beyond my technical acumen, I am an enthusiastic learner who stays up to date with the latest trends in the field. I believe in the power of continuous learning.</p>
             </div>
-          </div>  
+            <div class="btn-sci">
+                <div class="sci">
+                    <a href="#"><i class='bx bxl-github'></i></a>
+                    <a href="#"><i class='bx bxl-facebook-circle' ></i></a>
+                    <a href="#"><i class='bx bxl-linkedin' ></i></a>
+                    <a href="#"><i class='bx bxl-instagram' ></i></a>
+                </div>
+            </div>  
         </div>
         <div class="home-img">
             <div class="img-box">
@@ -43,70 +50,101 @@
         </div>
     </section>
 
+    <!-- Experience Section -->
     <section id="experience" class="experience section">
         <div class="container">
             <h2>Experience</h2>
-            <div class="experience-box">
-                <p>I work as a Sub EB of Graphics Team in IEEE PES SBC.</p>
-            </div>
-            <div class="experience-box">
-                <p>I work as a Graphics Incharge in INSB.</p>
+            <div class="card-container">
+                <div class="card">
+                    <h3>Sub EB of Graphics Team</h3>
+                    <p><strong>IEEE PES SBC</strong></p>
+                    <p>Worked as a Sub Executive Body member of the Graphics Team, responsible for designing posters, banners, and promotional materials.</p>
+                </div>
+                <div class="card">
+                    <h3>Graphics Incharge</h3>
+                    <p><strong>INSB</strong></p>
+                    <p>Led the graphics team, overseeing the design and execution of visual content for events and campaigns.</p>
+                </div>
             </div>
         </div>
     </section>
 
-<section id="skills" class="skills section">
-    <div class="container">
-        <h2>Skills</h2>
-        <div class="skills-box">
-            <div class="skill-item">
-                <i class='bx bxl-adobe'></i>
-                <p>Illustrator</p>
-            </div>
-            <div class="skill-item">
-                <i class='bx bxl-adobe'></i>
-                <p>Photoshop</p>
-            </div>
-            <div class="skill-item">
-                <i class='bx bxl-c-plus-plus'></i>
-                <p>C++</p>
-            </div>
-            <div class="skill-item">
-                <i class='bx bxl-java'></i>
-                <p>Java</p>
-            </div>
-            <div class="skill-item">
-                <i class='bx bx-code'></i>
-                <p>C</p>
-            </div>
-            <div class="skill-item">
-                <i class='bx bxl-html5'></i>
-                <p>HTML</p>
-            </div>
-            <div class="skill-item">
-                <i class='bx bxl-css3'></i>
-                <p>CSS</p>
-            </div>
-            <div class="skill-item">
-                <i class='bx bxl-c-sharp'></i>
-                <p>C#</p>
+    <!-- Skills Section -->
+    <section id="skills" class="skills section">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-box">
+                <div class="skill-item">
+                    <i class='bx bxl-adobe'></i>
+                    <p>Illustrator</p>
+                </div>
+                <div class="skill-item">
+                    <i class='bx bxl-adobe'></i>
+                    <p>Photoshop</p>
+                </div>
+                <div class="skill-item">
+                    <i class='bx bxl-c-plus-plus'></i>
+                    <p>C++</p>
+                </div>
+                <div class="skill-item">
+                    <i class='bx bxl-java'></i>
+                    <p>Java</p>
+                </div>
+                <div class="skill-item">
+                    <i class='bx bx-code'></i>
+                    <p>C</p>
+                </div>
+                <div class="skill-item">
+                    <i class='bx bxl-html5'></i>
+                    <p>HTML</p>
+                </div>
+                <div class="skill-item">
+                    <i class='bx bxl-css3'></i>
+                    <p>CSS</p>
+                </div>
+                <div class="skill-item">
+                    <i class='bx bxl-c-sharp'></i>
+                    <p>C#</p>
+                </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
+    <!-- Achievements Section -->
     <section id="achievements" class="achievements section">
         <div class="container">
             <h2>Achievements</h2>
-            <div class="achievements-box">
-                <p>Best Volunteer of the Year 2022-2023</p>
-            </div>
-            <div class="achievements-box">
-                <p>Best Sub EB of the Year 2023-2025</p>
+            <div class="card-container">
+                <div class="card">
+                    <h3>Best Volunteer of the Year</h3>
+                    <p><strong>2022-2023</strong></p>
+                    <p>Awarded for outstanding contributions as a volunteer in various events and initiatives.</p>
+                </div>
+                <div class="card">
+                    <h3>Best Sub EB of the Year</h3>
+                    <p><strong>2023-2025</strong></p>
+                    <p>Recognized as the Best Sub Executive Body member for exceptional performance and dedication.</p>
+                </div>
+                <div class="card">
+                    <h3>NASA Space App Challenge</h3>
+                    <p><strong>Top 50 Finalist</strong></p>
+                    <p>Selected as a Top 50 Finalist in the NASA Space App Challenge for developing an innovative space-related solution.</p>
+                </div>
+                <div class="card">
+                    <h3>BUET Game Jam</h3>
+                    <p><strong>Top 10 Finalist</strong></p>
+                    <p>Secured a position in the Top 10 at the BUET Game Jam for creating an engaging and creative game prototype.</p>
+                </div>
+                <div class="card">
+                    <h3>UIU CSE Fest 2025</h3>
+                    <p><strong>Top 10 Finalist</strong></p>
+                    <p>Achieved Top 10 in the UIU CSE Fest 2025 for outstanding performance in the programming competition.</p>
+                </div>
             </div>
         </div>
     </section>
 
+    <!-- Contact Section -->
     <section id="contact" class="contact section">
         <div class="container">
             <h2>Contact Me</h2>
@@ -127,9 +165,10 @@
         </div>
     </section>
 
+    <!-- Footer -->
     <footer>
         <div class="container">
-            <p>&copy; 2023 Fahim Foysal. All rights reserved.</p>
+            <p>&copy; 2025 Fahim Foysal. All rights reserved.</p>
         </div>
     </footer>
 </body>
