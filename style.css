@@ -127,7 +127,7 @@ a {
 }
 
 .experience-box {
-    background: rgba(255, 255, 255, 0.1);
+    background: rgb(132, 4, 164);
     padding: 20px;
     border-radius: 10px;
     margin-bottom: 20px;
@@ -136,7 +136,7 @@ a {
 
 .experience-box:hover {
     transform: translateY(-5px);
-    box-shadow: 0 5px 15px rgba(255, 255, 0, 0.3);
+    box-shadow: 0 5px 25px rgb(120, 254, 2);
 }
 
 .skills {
@@ -144,7 +144,7 @@ a {
 }
 
 .skills-box {
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(34, 2, 91, 0.907);
     padding: 20px;
     border-radius: 10px;
     margin-bottom: 20px;
@@ -166,7 +166,7 @@ a {
 
 .skill-item:hover {
     transform: translateY(-5px);
-    box-shadow: 0 5px 15px rgba(255, 255, 0, 0.3);
+    box-shadow: 0 5px 15px rgb(247, 247, 2);
 }
 
 .skill-item i {
@@ -222,7 +222,7 @@ a {
 
 .achievements-box:hover {
     transform: translateY(-5px);
-    box-shadow: 0 5px 15px rgba(255, 255, 0, 0.3);
+    box-shadow: 0 5px 15px rgb(213, 251, 2);
 }
 
 .contact {
