@@ -60,12 +60,27 @@ a {
 
 .home-info h1 {
     font-size: 55px;
+    transition: all 0.3s ease; 
+    display: inline-block; 
+}
+
+.home-info h1:hover {
+    color: yellow; 
+    transform: scale(1.05); 
+    cursor: pointer;
 }
 
 .home-info h2 {
     font-size: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+.home-info h2:hover {
+    color: yellow; 
+    transform: scale(1.05); 
+    cursor: pointer; 
 }
 
 .home-info p {
@@ -120,8 +135,13 @@ a {
     display: block;
     width: 85%;
     object-fit: cover;
+    
 }
-
+.home-img .img-box .img-item img:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 0 20px rgb(247, 247, 2); 
+    cursor: pointer; 
+}
 .experience {
     padding: 60px 9%;
 }
